@@ -23,4 +23,16 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>test2</title>
+    <url>/2022/11/01/test1/</url>
+    <content><![CDATA[<h3 id="使用gitpages创建博客"><a href="#使用gitpages创建博客" class="headerlink" title="使用gitpages创建博客"></a>使用gitpages创建博客</h3><blockquote>
+<p>白日依山尽，<br>黄河入海流。</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">x = 1</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
 </search>
