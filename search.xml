@@ -221,4 +221,68 @@
         <category>记</category>
       </categories>
   </entry>
+  <entry>
+    <title>Langchain</title>
+    <url>/2023/07/25/langchain%E6%8A%80%E6%9C%AF%E8%A6%81%E7%82%B9/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="langchain技术要点"><a href="#langchain技术要点" class="headerlink" title="langchain技术要点"></a>langchain技术要点</h2><blockquote>
+<p>Langchain是利用大语言模型开发下游应用的最优实现</p>
+</blockquote>
+<ul>
+<li><p><a href="https://docs.langchain.com/docs/">Langchain conceptual 理解</a></p>
+</li>
+<li><p><a href="https://python.langchain.com/en/latest/">LC Documentation</a></p>
+</li>
+<li><p>高度集成：支持各种外部文件，数据库，文件系统等等，与大语言模型进行结合</p>
+</li>
+<li><p>执行（agent）：使得大语言模型可以通过决策(decision making)和环境交互</p>
+</li>
+</ul>
+<h3 id="核心："><a href="#核心：" class="headerlink" title="核心："></a>核心：</h3><p><strong>Agents and Chains:</strong></p>
+<p>Chains代表执行复杂的集成任务，例如发起http请求，和数据库交互，实现网页搜索等等。</p>
+<ul>
+<li><a href="https://python.langchain.com/docs/modules/chains/">Chains</a></li>
+</ul>
+<p>Agent根据不同的问题，决定执行下游chain</p>
+<ul>
+<li><a href="https://python.langchain.com/docs/modules/agents/">Agent</a></li>
+</ul>
+<p><strong>Prompt:</strong></p>
+<p>内部的实现是通过定制化的prompt多次与大语言模型进行交互，使得其具备逻辑思考，动作执行的能力<br>核心prompt：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># flake8: noqa</span></span><br><span class="line">PREFIX = <span class="string">"""Answer the following questions as best you can. You have access to the following tools:"""</span></span><br><span class="line">FORMAT_INSTRUCTIONS = <span class="string">"""Use the following format:</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Question: the input question you must answer</span></span><br><span class="line"><span class="string">Thought: you should always think about what to do</span></span><br><span class="line"><span class="string">Action: the action to take, should be one of [{tool_names}]</span></span><br><span class="line"><span class="string">Action Input: the input to the action</span></span><br><span class="line"><span class="string">Observation: the result of the action</span></span><br><span class="line"><span class="string"><span class="meta">... </span>(this Thought/Action/Action Input/Observation can repeat N times)</span></span><br><span class="line"><span class="string">Thought: I now know the final answer</span></span><br><span class="line"><span class="string">Final Answer: the final answer to the original input question"""</span></span><br><span class="line">SUFFIX = <span class="string">"""Begin!</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Question: {input}</span></span><br><span class="line"><span class="string">Thought:{agent_scratchpad}"""</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>Prompt范式：MRKL agent</p>
+<p><a href="https://python.langchain.com/docs/modules/agents/how_to/custom_mrkl_agent">MRKL 格式</a></p>
+<p><a href="https://python.langchain.com/docs/modules/model_io/prompts/">各种Prompt</a></p>
+<p><strong>Vecstore</strong></p>
+<p><img src="/../images/image-20230725123055456.png" alt="image-20230725123055456"></p>
+<p><a href="https://python.langchain.com/docs/modules/data_connection/vectorstores/">Vecstore向量库</a></p>
+<p><strong>Langchain核心组件 CookBook:</strong></p>
+<p><a href="https://github.com/gkamradt/langchain-tutorials/blob/main/LangChain%20Cookbook%20Part%201%20-%20Fundamentals.ipynb">https://github.com/gkamradt/langchain-tutorials/blob/main/LangChain%20Cookbook%20Part%201%20-%20Fundamentals.ipynb</a></p>
+<p><strong>Langchain具体的下游应用场景</strong></p>
+<p><a href="https://github.com/gkamradt/langchain-tutorials/blob/main/LangChain%20Cookbook%20Part%202%20-%20Use%20Cases.ipynb">https://github.com/gkamradt/langchain-tutorials/blob/main/LangChain%20Cookbook%20Part%202%20-%20Use%20Cases.ipynb</a></p>
+<p><strong>Langchain Handbook</strong></p>
+<p><a href="https://github.com/pinecone-io/examples/blob/master/generation/langchain/handbook/03-langchain-conversational-memory.ipynb">https://github.com/pinecone-io/examples/blob/master/generation/langchain/handbook/03-langchain-conversational-memory.ipynb</a></p>
+<p><strong>具体案例(和数据库进行SQL交互) 数据库连接–&gt;SQL生成–&gt;SQL执行</strong></p>
+<p><a href="https://python.langchain.com/docs/integrations/toolkits/sql_database">https://python.langchain.com/docs/integrations/toolkits/sql_database</a></p>
+]]></content>
+      <categories>
+        <category>大模型</category>
+      </categories>
+      <tags>
+        <tag>langchain</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>贝爷</title>
+    <url>/2023/08/01/%E8%B4%9D%E7%88%B7/</url>
+    <content><![CDATA[<h3 id="贝爷"><a href="#贝爷" class="headerlink" title="贝爷"></a>贝爷</h3><p>最近在b站刷到了贝爷以前的纪录片，于是一发不可收拾。再次打开这些儿时曾经不以为意的视频，就像在家里翻到了很久很久的相册一样，怀念又新鲜。</p>
+<p>贝爷的视频又给最近的我带来了新的感悟。很难想象，二十年前的人们，其实享受着，经历着那样迸发着原始美丽的自然风光。以为自己是不是已经见过足够多的地方，实际上，我可能才仅仅迈出很小的一步。沙漠，冰山，高原，热带雨林，这些都是我基本没怎么置身其中的地方。</p>
+<p>Be kind and never give up。其实很多技巧可能并不能对城市生活的自己产生帮助，但是更多的是让我在城市当中能够体验更丰富，也着实遥不可及的生活。这种生活让我觉得很美好，让我对我当下的生活产生一种油然的满足感和珍惜感。希望这种影响能一直持续下去。</p>
+]]></content>
+      <categories>
+        <category>记</category>
+      </categories>
+  </entry>
 </search>
