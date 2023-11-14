@@ -232,7 +232,7 @@
 </li>
 <li><p><a href="https://python.langchain.com/en/latest/">LC Documentation</a></p>
 </li>
-<li><p>高度集成：支持各种外部文件，数据库，文件系统等等，与大语言模型进行结合</p>
+<li><p>​	高度集成：支持各种外部文件，数据库，文件系统等等，与大语言模型进行结合</p>
 </li>
 <li><p>执行（agent）：使得大语言模型可以通过决策(decision making)和环境交互</p>
 </li>
@@ -246,8 +246,7 @@
 <ul>
 <li><a href="https://python.langchain.com/docs/modules/agents/">Agent</a></li>
 </ul>
-<p><strong>Prompt:</strong></p>
-<p>内部的实现是通过定制化的prompt多次与大语言模型进行交互，使得其具备逻辑思考，动作执行的能力<br>核心prompt：</p>
+<p>**Prompt:内部的实现是通过定制化的prompt多次与大语言模型进行交互，使得其具备逻辑思考，动作执行的能力</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># flake8: noqa</span></span><br><span class="line">PREFIX = <span class="string">"""Answer the following questions as best you can. You have access to the following tools:"""</span></span><br><span class="line">FORMAT_INSTRUCTIONS = <span class="string">"""Use the following format:</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Question: the input question you must answer</span></span><br><span class="line"><span class="string">Thought: you should always think about what to do</span></span><br><span class="line"><span class="string">Action: the action to take, should be one of [{tool_names}]</span></span><br><span class="line"><span class="string">Action Input: the input to the action</span></span><br><span class="line"><span class="string">Observation: the result of the action</span></span><br><span class="line"><span class="string"><span class="meta">... </span>(this Thought/Action/Action Input/Observation can repeat N times)</span></span><br><span class="line"><span class="string">Thought: I now know the final answer</span></span><br><span class="line"><span class="string">Final Answer: the final answer to the original input question"""</span></span><br><span class="line">SUFFIX = <span class="string">"""Begin!</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Question: {input}</span></span><br><span class="line"><span class="string">Thought:{agent_scratchpad}"""</span></span><br></pre></td></tr></table></figure>
 
 
@@ -311,5 +310,53 @@
       <tags>
         <tag>VUE</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>I&#39;m OK</title>
+    <url>/2023/11/12/I&#39;m%20OK/</url>
+    <content><![CDATA[<h3 id="I’m-OK"><a href="#I’m-OK" class="headerlink" title="I’m OK"></a>I’m OK</h3><p>今天是我腿韧带受伤的第三周。写下这段文字时，我在宿舍独处，随着电脑外放着陶喆的I‘m OK专辑，我的思绪渐渐发散起来。上周发生了很多很多事情，就像一场梦一样。在这场梦里，一切都停不下来，好像事情一件接着一件发生，我在其中不断的被推动着，被推动着，卷入其中。尽管发生的事情很糟，但我脑子始终是混沌着，被裹挟着。</p>
+<p>正好今天杠去了朋友家，我有空细细反思。</p>
+<span id="more"></span>
+
+<p>我自己的问题很大，如果一定要等到最坏的结果发生，到那时，我必然会错过我这辈子最重要的人和事。巧的是，耳边的歌词不断的重复，清晰得像触碰着我的耳朵：“再多的遗憾也不能重来”。我觉得这像是冥冥之中，在不断的给我最后的警示。</p>
+<p>想起一些很迷信的说法，其实很多大事的发生前，总有一些预兆。人们说唐山大地震前，动物都表现的怪异，在那个时候就有人有预感提前搬走；那些历经世事的世纪老人，在离世前往往能感知到自己生命的微光，在闭眼的前几天就知道自己快要离去。细细想来，其实任何事情都不是突然出现的，上帝总是或多或少会给予一些征兆和暗示。</p>
+<p>我很幸运，我觉得感知到了。至少对于现在来说，最坏的结果还没有出现。</p>
+<p>让自己的头脑保持足够的清醒，不要被自己的情绪冲昏头脑。克制，理智，这是对杠，对我自己最负责，最正确的做法。永远在事前考虑结果，而不是事后痛苦和反悔，请务必牢记这重要的启示。</p>
+]]></content>
+      <categories>
+        <category>记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>关于工作能力</title>
+    <url>/2023/11/13/%E5%85%B3%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%83%BD%E5%8A%9B/</url>
+    <content><![CDATA[<p>​	今天在工作中出现了合作时代码开发的问题，最终通过把相关的人召集起来开一个短会，问题很快解决了。关于这次事件，结合自己实习以来的体感，我觉得应该记录一些经验与思考。</p>
+<p>所以工作中，其实必须不断的思考，否则工作能力并不会有本质的变化。</p>
+<span id="more"></span>
+
+<h3 id="性格上："><a href="#性格上：" class="headerlink" title="性格上："></a>性格上：</h3><ol>
+<li><p>从小到大，我母亲到初中老师再到实习的mentor，别人对我一致的评价都是做事快，但是急躁。这个问题就像是Git上只有一个分支，这个过程其实就是不断的产生问题，思考该问题的方法，不断试错的单线程。是Git不断merge的过程。</p>
+</li>
+<li><p>尽量不要打断别人的说话，尽管自己很快就能get到对方的意思，但是还是尽可能等待对方说完再表达自己的意见。（工作中注意）</p>
+</li>
+</ol>
+<h3 id="几个重要思考："><a href="#几个重要思考：" class="headerlink" title="几个重要思考："></a>几个重要思考：</h3><ol>
+<li><p>之前的自己就觉得自己应该去做所有的活，一方面在干活的过程当中，锻炼了自己的能力，另一方面，自己也做得好。但现在需要再敲打一下这个想法，第一，在做这个活的过程当中，是不是真的锻炼了自己的能力，这个需要思考。第二，这个能力是个技术性，创新性的锻炼还是熟练度的锻炼，这个也需要思考。第三，当下花时间干这个活，这么做，优先级是不是足够高，或者说，这次锻炼是否可以延后呢。</p>
+</li>
+<li><p>如果自己的需求是合理的，一定是有解决方法的。技术问题都不成为问题</p>
+</li>
+<li><p>在工作中，工作能力和技术能力的要求孰高孰低。或许想要上升，前者更重要，但是后者是本。</p>
+</li>
+<li><p>在做一件事情的时候，应该思考，思考这件事未来的发展是怎么样的，还是那句话，对未来预期与后果必须有一定思考。而不是当下觉得自己想做，当下觉得自己应该做，就当下去做。特别是对于工作，因为不思考清楚，这样的工作很有可能会导致无效的工作，这样的工作其实并不会锻炼到自己的能力。</p>
+<p>进一步补充，在进行未来预期思考的时候，不应该只有一个分支，尽量从多个角度去思考，这件事是不是应该靠自己解决，是否需要快速寻求专业人士的帮助，对这个问题应该专注多长时间就考虑换一条路。这个方法其实很像现在大模型自己的发展和思考，REACT的过程，有链式，当然也有树状的。链式的调用会更快，但树状的可能会有更优解。那在工作中，在还没有适应这种方式的当下，的确可以使用图表的方式来帮助自己梳理。</p>
+</li>
+</ol>
+<blockquote>
+<p>生命中的机会就这样从指缝中溜走，只因睡过了头，或是不情愿，或是迟到，又或是疏忽大意。于是生活变成了纵情享乐、半梦半醒、不思进取、丧失斗志。有的只是慵懒的上午、未开封的信件、拖延的工作、搁置的项目  																																——托卡尔丘克《糜骨之壤》</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>记</category>
+      </categories>
   </entry>
 </search>
