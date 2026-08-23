@@ -99,6 +99,9 @@ a:hover { color: var(--blue-dark); }
 .page-content p { margin: 0 0 10px; }
 .page-content li { margin: 4px 0; }
 .org-logo { width: 4.4em; margin: 0 0.2em; vertical-align: -0.22em; }
+.org-logo-link { display: inline-block; text-decoration: none; }
+.org-logo-samsung { width: 8.3em; vertical-align: -0.16em; }
+.org-logo-agibot { width: 6.4em; vertical-align: -0.42em; }
 
 .cv-entry {
   padding: 16px 0;

@@ -74,7 +74,7 @@ author_profile: true
 <section class="cv-entry experience-entry">
 	<header class="cv-entry-header">
 		<div>
-			<h2>智元机器人</h2>
+			<h2><a href="https://www.agibot.com/">智元机器人</a> <a class="org-logo-link" href="https://www.agibot.com/" aria-label="智元机器人官网"><img class="org-logo org-logo-agibot" src="/images/logos/agibot.png" alt="AgiBot"></a></h2>
 			<p>算法实习生</p>
 		</div>
 		<time>2024.10 – 2025.02</time>
@@ -106,7 +106,7 @@ author_profile: true
 <section class="cv-entry experience-entry">
 	<header class="cv-entry-header">
 		<div>
-			<h2>Samsung Research China Beijing（SRCB）</h2>
+			<h2><a href="https://research.samsung.com/src-b">Samsung Research China Beijing（SRCB）</a> <a class="org-logo-link" href="https://research.samsung.com/src-b" aria-label="Samsung Research China Beijing 官网"><img class="org-logo org-logo-samsung" src="/images/logos/samsung-research.png" alt="Samsung Research"></a></h2>
 			<p>算法实习生 · Language Intelligence Team（LIT）</p>
 		</div>
 		<time>2022.04 – 2022.07</time>

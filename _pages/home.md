@@ -74,7 +74,7 @@ I received my bachelor's degree from [Nanjing University](https://www.nju.edu.cn
 <section class="cv-entry experience-entry">
 	<header class="cv-entry-header">
 		<div>
-			<h2>Agibot</h2>
+			<h2><a href="https://www.agibot.com/">AgiBot</a> <a class="org-logo-link" href="https://www.agibot.com/" aria-label="AgiBot website"><img class="org-logo org-logo-agibot" src="/images/logos/agibot.png" alt="AgiBot"></a></h2>
 			<p>Algorithm Intern</p>
 		</div>
 		<time>Oct. 2024 – Feb. 2025</time>
@@ -106,7 +106,7 @@ I received my bachelor's degree from [Nanjing University](https://www.nju.edu.cn
 <section class="cv-entry experience-entry">
 	<header class="cv-entry-header">
 		<div>
-			<h2>Samsung Research China Beijing (SRCB)</h2>
+			<h2><a href="https://research.samsung.com/src-b">Samsung Research China Beijing (SRCB)</a> <a class="org-logo-link" href="https://research.samsung.com/src-b" aria-label="Samsung Research China Beijing website"><img class="org-logo org-logo-samsung" src="/images/logos/samsung-research.png" alt="Samsung Research"></a></h2>
 			<p>Algorithm Intern · Language Intelligence Team (LIT)</p>
 		</div>
 		<time>Apr. 2022 – Jul. 2022</time>
