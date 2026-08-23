@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="icon" type="image/png" href="/images/icons8-astronaut-with-flag-32.png">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>{{ page.title | default: site.title }}</title>
+  </head>
+  <body>
+    {% include masthead.html %}
+    <main id="main" class="site-main">
+      {% if page.author_profile %}{% include profile.html %}{% endif %}
+      <article class="page-content">
+        {{ content }}
+      </article>
+    </main>
+  </body>
+</html>

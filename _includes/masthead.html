@@ -1,0 +1,25 @@
+{% assign is_zh = false %}
+{% if page.lang == "zh-CN" %}{% assign is_zh = true %}{% endif %}
+<header class="masthead">
+  <nav class="masthead-inner" aria-label="{% if is_zh %}主导航{% else %}Primary navigation{% endif %}">
+    <a class="home-link" href="{% if is_zh %}/zh/{% else %}/{% endif %}">{% if is_zh %}首页{% else %}Homepage{% endif %}</a>
+    <div class="nav-links">
+      <a href="{% if is_zh %}/{% else %}/zh/{% endif %}">{% if is_zh %}English{% else %}中文版{% endif %}</a>
+      {% if is_zh %}
+        <a href="/zh/#about">关于我</a>
+        <a href="/zh/#publications">论文</a>
+        <a href="/zh/#education">教育经历</a>
+        <a href="/zh/#honors">荣誉奖项</a>
+        <a href="/zh/#experience">工作经历</a>
+        {% if site.show_blog %}<a href="/zh/blog/">博客</a>{% endif %}
+      {% else %}
+        <a href="/#about">About</a>
+        <a href="/#publications">Publications</a>
+        <a href="/#education">Education</a>
+        <a href="/#honors">Honors</a>
+        <a href="/#experience">Experience</a>
+        {% if site.show_blog %}<a href="/blog/">Blog</a>{% endif %}
+      {% endif %}
+    </div>
+  </nav>
+</header>

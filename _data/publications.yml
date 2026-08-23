@@ -1,0 +1,32 @@
+- title: "ALTER: Augmentation for Large-Table-Based Reasoning"
+  authors: "Han Zhang, Yuheng Ma, Hanfang Yang"
+  venue: "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics"
+  venue_short: "NAACL"
+  year: 2025
+  url: "https://aclanthology.org/2025.naacl-long.9/"
+  pdf: "https://aclanthology.org/2025.naacl-long.9.pdf"
+  image: "/images/papers/alter.jpg"
+  summary: "Introduces an augmentation framework for large-table reasoning that helps language models work with tables beyond their context window."
+  summary_zh: "提出面向大规模表格推理的数据增强框架，帮助语言模型处理超出上下文窗口的大型表格。"
+
+- title: "Learning to Retrieve and Reason on Knowledge Graph through Active Self-Reflection"
+  authors: "Han Zhang, Langshi Zhou, Hanfang Yang"
+  venue: "arXiv preprint arXiv:2502.14932"
+  venue_short: "arXiv"
+  year: 2025
+  url: "https://arxiv.org/abs/2502.14932"
+  pdf: "https://arxiv.org/pdf/2502.14932"
+  image: "/images/papers/arg.jpg"
+  summary: "Presents ARG, an end-to-end framework that actively retrieves graph knowledge, reflects on evidence, and iteratively reasons along interpretable paths."
+  summary_zh: "提出端到端知识图谱推理框架 ARG，主动检索图知识、反思证据，并沿可解释路径进行迭代推理。"
+
+- title: "Decision Tree for Locally Private Estimation with Public Data"
+  authors: "Yuheng Ma, Han Zhang, Yuchao Cai, Hanfang Yang"
+  venue: "Advances in Neural Information Processing Systems 36, 43676–43705"
+  venue_short: "NeurIPS"
+  year: 2023
+  url: "https://papers.nips.cc/paper_files/paper/2023/hash/88237ac4e9941b1be5c6d3c1ad408184-Abstract-Conference.html"
+  pdf: "https://papers.nips.cc/paper_files/paper/2023/file/88237ac4e9941b1be5c6d3c1ad408184-Paper-Conference.pdf"
+  image: "/images/papers/lpdt.jpg"
+  summary: "Studies locally private estimation with public data and develops a decision-tree method for adapting estimators to the available public information."
+  summary_zh: "研究公开数据辅助的局部差分隐私估计，并提出根据公开信息自适应构造估计器的决策树方法。"

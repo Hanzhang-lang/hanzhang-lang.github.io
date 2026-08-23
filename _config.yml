@@ -1,0 +1,41 @@
+title: "Han Zhang | 张涵"
+description: "Ph.D. student at Renmin University of China working on LLM training data and reasoning."
+url: "https://hanzhang-lang.github.io"
+baseurl: ""
+repository: "hanzhang-lang/hanzhang-lang.github.io"
+lang: en
+timezone: Asia/Shanghai
+markdown: kramdown
+permalink: /:categories/:title/
+show_blog: false
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+author:
+  name: "Han Zhang"
+  name_zh: "张涵"
+  avatar: "/images/profile.jpg"
+  bio: "Renmin University of China<br>中国人民大学"
+  location: "Beijing, China"
+  email: "ruchanzh0816@gmail.com"
+  github: "hanzhang-lang"
+  googlescholar: "https://scholar.google.com/citations?user=n6sDKdoAAAAJ&hl=en"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true

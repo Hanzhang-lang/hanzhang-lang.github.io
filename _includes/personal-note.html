@@ -1,0 +1,16 @@
+{% assign is_zh = false %}
+{% if page.lang == "zh-CN" %}{% assign is_zh = true %}{% endif %}
+<section class="personal-note" aria-label="{% if is_zh %}个人注记{% else %}Personal note{% endif %}">
+  <div class="personal-note-copy">
+    <blockquote>
+      <span>Life is a gift,</span>
+      <span>we should celebrate it.</span>
+      <span class="quote-turn">We have to dance</span>
+      <span>to show how grateful we are</span>
+      <span>to be alive.</span>
+    </blockquote>
+  </div>
+  <div class="music-player">
+    <iframe title="Imagine - NetEase Cloud Music" src="https://music.163.com/outchain/player?type=2&id=1476431&auto=0&height=66" width="330" height="86" frameborder="0" loading="lazy" allow="autoplay; encrypted-media"></iframe>
+  </div>
+</section>

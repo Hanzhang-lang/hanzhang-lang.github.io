@@ -1,0 +1,20 @@
+<div class="publication-list">
+  {% for paper in site.data.publications %}
+    <section class="paper-card">
+      <div class="paper-visual">
+        <span>{{ paper.venue_short }} {{ paper.year }}</span>
+        <img src="{{ paper.image }}" alt="{{ paper.title }} paper preview">
+      </div>
+      <div class="paper-body">
+        <div class="paper-meta">{{ paper.venue_short }} · {{ paper.year }}</div>
+        <h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
+        <p class="paper-authors">{{ paper.authors }}</p>
+        <p>{% if page.lang == "zh-CN" %}{{ paper.summary_zh }}{% else %}{{ paper.summary }}{% endif %}</p>
+        <div class="paper-links">
+          <a href="{{ paper.url }}">Paper</a>
+          {% if paper.pdf %}<a href="{{ paper.pdf }}">PDF</a>{% endif %}
+        </div>
+      </div>
+    </section>
+  {% endfor %}
+</div>
