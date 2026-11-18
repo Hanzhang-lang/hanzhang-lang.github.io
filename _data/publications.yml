@@ -1,8 +1,8 @@
 - title: "Beyond Static Dialogues: Benchmarking Realistic, Heterogeneous, and Evolving Long-Horizon Memory"
   authors: "Han Zhang, Zihao Tang, Xin Yu, Xiao Liu, Yeyun Gong, Haizhen Huang, Yan Lu, Weiwei Deng, Feng Sun, Qi Zhang, Hanfang Yang"
   venue: "Findings of the Association for Computational Linguistics: EMNLP 2026"
-  venue_short: "EMNLP Findings"
-  venue_label: "EMNLP 2026 Findings"
+  venue_short: "EMNLP"
+  badge_label: "EMNLP 2026 Findings"
   year: 2026
   url: "https://aclanthology.org/2026.findings-emnlp.1679/"
   pdf: "https://aclanthology.org/2026.findings-emnlp.1679.pdf"
@@ -16,8 +16,8 @@
     - "Zhoujian Wang"
     - "Han Zhang"
   venue: "Findings of the Association for Computational Linguistics: EMNLP 2026"
-  venue_short: "EMNLP Findings"
-  venue_label: "EMNLP 2026 Findings"
+  venue_short: "EMNLP"
+  badge_label: "EMNLP 2026 Findings"
   year: 2026
   url: "https://aclanthology.org/2026.findings-emnlp.1623/"
   pdf: "https://aclanthology.org/2026.findings-emnlp.1623.pdf"
@@ -28,8 +28,8 @@
 - title: "HuggingBrew: Brewing High-Quality Mid-Training Data from the HuggingFace Community Datasets"
   authors: "Han Zhang, Ningqi Chen, Xiao Liu, Zhenghao Lin, Yeyun Gong, Yan Lu, Hanfang Yang"
   venue: "Findings of the Association for Computational Linguistics: EMNLP 2026"
-  venue_short: "EMNLP Findings"
-  venue_label: "EMNLP 2026 Findings"
+  venue_short: "EMNLP"
+  badge_label: "EMNLP 2026 Findings"
   year: 2026
   url: "https://aclanthology.org/2026.findings-emnlp.1519/"
   pdf: "https://aclanthology.org/2026.findings-emnlp.1519.pdf"

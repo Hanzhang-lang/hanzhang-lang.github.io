@@ -2,7 +2,7 @@
   {% for paper in site.data.publications %}
     <section class="paper-card">
       <div class="paper-visual{% unless paper.image %} paper-visual--fallback{% endunless %}">
-        <span>{% if paper.venue_label %}{{ paper.venue_label }}{% else %}{{ paper.venue_short }} {{ paper.year }}{% endif %}</span>
+        <span>{% if paper.badge_label %}{{ paper.badge_label }}{% else %}{{ paper.venue_short }} {{ paper.year }}{% endif %}</span>
         {% if paper.image %}
           <img src="{{ paper.image }}" alt="{{ paper.title }} paper preview">
         {% else %}
@@ -13,7 +13,7 @@
         {% endif %}
       </div>
       <div class="paper-body">
-        <div class="paper-meta">{% if paper.venue_label %}{{ paper.venue_label }}{% else %}{{ paper.venue_short }} · {{ paper.year }}{% endif %}</div>
+        <div class="paper-meta">{{ paper.venue_short }} · {{ paper.year }}</div>
         <h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
         <p class="paper-authors">
           {% assign authors = paper.authors | split: ", " %}
