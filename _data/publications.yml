@@ -1,3 +1,42 @@
+- title: "Beyond Static Dialogues: Benchmarking Realistic, Heterogeneous, and Evolving Long-Horizon Memory"
+  authors: "Han Zhang, Zihao Tang, Xin Yu, Xiao Liu, Yeyun Gong, Haizhen Huang, Yan Lu, Weiwei Deng, Feng Sun, Qi Zhang, Hanfang Yang"
+  venue: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  venue_short: "EMNLP Findings"
+  venue_label: "EMNLP 2026 Findings"
+  year: 2026
+  url: "https://aclanthology.org/2026.findings-emnlp.1679/"
+  pdf: "https://aclanthology.org/2026.findings-emnlp.1679.pdf"
+  image: "/images/papers/rhelm.jpg"
+  summary: "Introduces RHELM, a benchmark for realistic, heterogeneous, and evolving long-horizon memory across coherent conversations and external data sources."
+  summary_zh: "提出 RHELM 长时记忆基准，以连贯对话和多源外部数据评测真实、异构且持续演化的长期记忆能力。"
+
+- title: "STAR-Table: Spatial Textual Anchoring and Reconstruction for Hierarchical Table Reasoning via OCR"
+  authors: "Zhoujian Wang, Han Zhang, Hanfang Yang"
+  equal_contributors:
+    - "Zhoujian Wang"
+    - "Han Zhang"
+  venue: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  venue_short: "EMNLP Findings"
+  venue_label: "EMNLP 2026 Findings"
+  year: 2026
+  url: "https://aclanthology.org/2026.findings-emnlp.1623/"
+  pdf: "https://aclanthology.org/2026.findings-emnlp.1623.pdf"
+  image: "/images/papers/star-table.jpg"
+  summary: "Presents STAR-Table, which combines OCR-derived spatial anchors, topology reconstruction, and SQL execution for robust reasoning over hierarchical tables."
+  summary_zh: "提出 STAR-Table，结合 OCR 空间锚点、层级拓扑重建与 SQL 执行，实现对复杂层级表格的稳健推理。"
+
+- title: "HuggingBrew: Brewing High-Quality Mid-Training Data from the HuggingFace Community Datasets"
+  authors: "Han Zhang, Ningqi Chen, Xiao Liu, Zhenghao Lin, Yeyun Gong, Yan Lu, Hanfang Yang"
+  venue: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  venue_short: "EMNLP Findings"
+  venue_label: "EMNLP 2026 Findings"
+  year: 2026
+  url: "https://aclanthology.org/2026.findings-emnlp.1519/"
+  pdf: "https://aclanthology.org/2026.findings-emnlp.1519.pdf"
+  image: "/images/papers/huggingbrew.jpg"
+  summary: "Builds a large-scale, systematically curated mid-training corpus from Hugging Face community datasets, with variants ranging from 40B to 1.6T tokens."
+  summary_zh: "从 Hugging Face 社区数据集中系统构建大规模中期训练语料，并提供从 400 亿到 1.6 万亿 token 的多种精选版本。"
+
 - title: "ALTER: Augmentation for Large-Table-Based Reasoning"
   authors: "Han Zhang, Yuheng Ma, Hanfang Yang"
   venue: "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics"
@@ -11,9 +50,9 @@
 
 - title: "Learning to Retrieve and Reason on Knowledge Graph through Active Self-Reflection"
   authors: "Han Zhang, Langshi Zhou, Hanfang Yang"
-  venue: "arXiv preprint arXiv:2502.14932"
-  venue_short: "arXiv"
-  year: 2025
+  venue: "CIKM LASS Workshop 2026"
+  venue_short: "CIKM LASS Workshop"
+  year: 2026
   url: "https://arxiv.org/abs/2502.14932"
   pdf: "https://arxiv.org/pdf/2502.14932"
   image: "/images/papers/arg.jpg"

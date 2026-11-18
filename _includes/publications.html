@@ -1,14 +1,25 @@
 <div class="publication-list">
   {% for paper in site.data.publications %}
     <section class="paper-card">
-      <div class="paper-visual">
-        <span>{{ paper.venue_short }} {{ paper.year }}</span>
-        <img src="{{ paper.image }}" alt="{{ paper.title }} paper preview">
+      <div class="paper-visual{% unless paper.image %} paper-visual--fallback{% endunless %}">
+        <span>{% if paper.venue_label %}{{ paper.venue_label }}{% else %}{{ paper.venue_short }} {{ paper.year }}{% endif %}</span>
+        {% if paper.image %}
+          <img src="{{ paper.image }}" alt="{{ paper.title }} paper preview">
+        {% else %}
+          <div class="paper-cover" aria-hidden="true">
+            <strong>EMNLP</strong>
+            <small>Findings · {{ paper.year }}</small>
+          </div>
+        {% endif %}
       </div>
       <div class="paper-body">
-        <div class="paper-meta">{{ paper.venue_short }} · {{ paper.year }}</div>
+        <div class="paper-meta">{% if paper.venue_label %}{{ paper.venue_label }}{% else %}{{ paper.venue_short }} · {{ paper.year }}{% endif %}</div>
         <h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
-        <p class="paper-authors">{{ paper.authors }}</p>
+        <p class="paper-authors">
+          {% assign authors = paper.authors | split: ", " %}
+          {% for author in authors %}{% if author == "Han Zhang" %}<strong>{{ author }}{% if paper.equal_contributors contains author %}*{% endif %}</strong>{% else %}{{ author }}{% if paper.equal_contributors contains author %}*{% endif %}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+          {% if paper.equal_contributors %}<small>{% if page.lang == "zh-CN" %}* 共同第一作者{% else %}* Equal contribution{% endif %}</small>{% endif %}
+        </p>
         <p>{% if page.lang == "zh-CN" %}{{ paper.summary_zh }}{% else %}{{ paper.summary }}{% endif %}</p>
         <div class="paper-links">
           <a href="{{ paper.url }}">Paper</a>
